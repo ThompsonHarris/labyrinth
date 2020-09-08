@@ -1,0 +1,25 @@
+{
+  "name": "labyrinth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:cljs": "npx shadow-cljs watch app",
+    "watch:css": "postcss src/labyrinth/tailwind.css -o public/styles.css",
+    "start:dev": "npm-run-all --parallel watch:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.2",
+    "postcss-import": "^12.0.1",
+    "shadow-cljs": "^2.11.1",
+    "tailwindcss": "^1.8.4"
+  }
+}

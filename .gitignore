@@ -1,0 +1,7 @@
+.calva
+/node_modules
+/target
+/public/js
+.shadow-cljs
+.nrepl-port
+.DS_Store
