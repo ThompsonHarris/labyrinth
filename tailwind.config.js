@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled: true,
+    content: ['./src/**/*.cljs'],
+  },
   target: 'relaxed',
   prefix: '',
   important: false,

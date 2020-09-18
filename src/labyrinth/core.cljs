@@ -17,6 +17,7 @@
 ;; 1.2 symbol - component
 ;; 2 optional map of attributes
 ;; 3 string literals or child
+;; 
 
 (defn app
   []
